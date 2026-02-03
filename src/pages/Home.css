@@ -1,0 +1,86 @@
+/* Top Banner */
+.home-banner {
+  height: 320px;
+  background-image: url("../assets/arn.png");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+
+  color: white;
+}
+
+.home-banner h1 {
+  font-size: 42px;
+  margin: 0;
+}
+
+.home-banner p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Middle 25% Section */
+.home-middle {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  background-color: #f5f9ff;
+}
+
+.home-middle h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #0a3d62;
+}
+
+.home-middle p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Specialists Cards */
+.specialists {
+  padding: 50px 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  background: #ffffff;
+}
+
+.card {
+  background: #f8fbff;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  color: #0a3d62;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
